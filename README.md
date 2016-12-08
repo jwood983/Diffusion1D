@@ -9,7 +9,7 @@ The diffusion equation takes the form
 
 ∂u/∂t = D∂(∂u/∂x)/∂x
 
-where we assume that $D$ is spatially independent. In order to solve this computationally, we discretize the variable $u$ in the [typical ways](https://me.ucsb.edu/~moehlis/APC591/tutorials/tutorial5/node3.html). We then solve the system using two difference methods.
+where we assume that D is spatially independent. In order to solve this computationally, we discretize the variable u in the [typical ways](https://me.ucsb.edu/~moehlis/APC591/tutorials/tutorial5/node3.html). We then solve the system using two difference methods.
 
 Method 1
 --------
@@ -37,13 +37,13 @@ Output
 ======
 The output file follows the [curve](http://www.visitusers.org/index.php?title=Reading_curve_data) format, which is easily readable in visit.
 
-Currently, only the initial function and the final function are output to file. Users could modify it slightly to output at regular intervals, but I'm not interested in that, only the final and end states.
+Currently, only the initial function and the final function are output to file. Users could modify it slightly to output at regular intervals, but I'm not interested in that, only the initial and final states.
 
 
 Compilation
 ===========
 
-This is compiled by entering `make` in the command line. It does require a Fortran compiler. And probably a terminal. And VisIt so you can view the software (I strongly recommend against getting the source code and compiling it; I tried several times on several computers to no avail, but maybe you're better at that than I).
+This is compiled by entering `make` in the command line. It does require a Fortran compiler. And probably a terminal. And VisIt so you can view the solutions.
 
 
 Disclaimer
